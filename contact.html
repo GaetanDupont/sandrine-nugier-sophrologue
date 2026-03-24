@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Prise de RDV — Sandrine Nugier, Sophrologue à Ozoir-la-Ferrière</title>
+  <meta name="description" content="Prenez rendez-vous avec Sandrine Nugier, sophrologue à Ozoir-la-Ferrière (77). Cabinet, en ligne ou à domicile. 70€/séance. Réservation en ligne sur Resalib ou par téléphone.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ---- Contact form styles ---- */
+    .contact-form { margin-top: 32px; }
+    .form-group { margin-bottom: 20px; }
+    .form-label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-dark);
+      margin-bottom: 8px;
+      letter-spacing: 0.04em;
+    }
+    .form-input,
+    .form-select,
+    .form-textarea {
+      width: 100%;
+      padding: 14px 18px;
+      border: 1.5px solid var(--border);
+      border-radius: var(--r-sm);
+      background: var(--white);
+      font-family: var(--font-sans);
+      font-size: 0.97rem;
+      color: var(--text-dark);
+      transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+      outline: none;
+    }
+    .form-input:focus,
+    .form-select:focus,
+    .form-textarea:focus {
+      border-color: var(--sage);
+      box-shadow: 0 0 0 3px rgba(123, 145, 101, 0.15);
+    }
+    .form-textarea { resize: vertical; min-height: 130px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-note { font-size: 0.78rem; color: var(--text-light); margin-top: 8px; }
+    @media (max-width: 480px) { .form-row { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <!-- ======== NAVIGATION ======== -->
+  <nav class="nav scrolled" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-name">Sandrine Nugier</span>
+        <span class="nav-logo-title">Sophrologue · Hypnothérapeute · Énergéticienne</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="sophrologie.html">La Sophrologie</a></li>
+        <li><a href="accompagnements.html">Accompagnements</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="temoignages.html">Témoignages</a></li>
+        <li class="nav-cta"><a href="contact.html" class="btn btn-primary">Prendre RDV</a></li>
+      </ul>
+      <button class="nav-burger" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======== PAGE HEADER ======== -->
+  <header class="page-header">
+    <div class="container">
+      <span class="eyebrow">Disponible pour vous</span>
+      <h1>Contact &amp; Prise de RDV</h1>
+      <p class="lead">
+        Réservez en ligne en quelques clics, ou contactez-moi directement
+        par téléphone, WhatsApp ou email. Je réponds dans les plus brefs délais.
+      </p>
+    </div>
+  </header>
+
+  <!-- ======== CONTACT MAIN ======== -->
+  <section class="section section-white">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- LEFT : INFORMATIONS ======== -->
+        <div class="fade-in">
+          <h3 style="margin-bottom:8px">Informations pratiques</h3>
+          <p style="margin-bottom:28px; font-size:0.95rem">
+            N'hésitez pas à me contacter pour toute question avant de réserver votre première séance.
+          </p>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📍</div>
+            <div>
+              <div class="contact-detail-label">Adresse du cabinet</div>
+              <div class="contact-detail-value">
+                Grande Place de la Brèche aux loups<br>
+                77330 Ozoir-la-Ferrière<br>
+                <span style="font-size:0.85rem; color:var(--text-light)">Parking à côté de la clinique vétérinaire</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📞</div>
+            <div>
+              <div class="contact-detail-label">Téléphone &amp; WhatsApp</div>
+              <div class="contact-detail-value">
+                <a href="tel:+33670070722">06 70 07 07 22</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon">✉️</div>
+            <div>
+              <div class="contact-detail-label">Email</div>
+              <div class="contact-detail-value">
+                <a href="mailto:sandrine.nugier@orange.fr">sandrine.nugier@orange.fr</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon">💻</div>
+            <div>
+              <div class="contact-detail-label">Réservation en ligne</div>
+              <div class="contact-detail-value">
+                <a href="https://www.resalib.fr/agenda/100744?src=profile" target="_blank" rel="noopener">
+                  Resalib — Agenda en ligne
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon" style="font-size:1rem">f</div>
+            <div>
+              <div class="contact-detail-label">Facebook</div>
+              <div class="contact-detail-value">
+                <a href="https://www.facebook.com/sandrine.nugier.sophrologie/" target="_blank" rel="noopener">
+                  Sandrine Nugier Sophrologue Hypnose
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- MODALITIES -->
+          <h4 style="font-size:1rem; margin-top:32px; margin-bottom:12px">Modes de consultation</h4>
+          <div class="modalities">
+            <div class="modality-badge"><span>🏡</span> En cabinet</div>
+            <div class="modality-badge"><span>💻</span> En ligne</div>
+            <div class="modality-badge"><span>🚗</span> À domicile</div>
+          </div>
+
+          <!-- PAYMENT -->
+          <h4 style="font-size:1rem; margin-top:28px; margin-bottom:12px">Moyens de paiement</h4>
+          <div class="payment-icons">
+            <span class="payment-icon">Espèces</span>
+            <span class="payment-icon">Chèque</span>
+            <span class="payment-icon">PayPal</span>
+            <span class="payment-icon">Paylib</span>
+          </div>
+
+          <div class="info-box" style="margin-top:24px">
+            <p>
+              <strong>Remboursement mutuelle :</strong> 33 mutuelles remboursent tout ou
+              partie des séances de sophrologie. Renseignez-vous auprès de votre
+              complémentaire santé.
+            </p>
+          </div>
+        </div>
+
+        <!-- RIGHT : BOOKING CARD + FORM ======== -->
+        <div class="fade-in delay-1">
+
+          <!-- Booking card -->
+          <div class="booking-card">
+            <div style="position:relative; z-index:1">
+              <h3>Réserver une séance</h3>
+              <p>Consultez les disponibilités et réservez directement en ligne sur Resalib, la plateforme sécurisée de prise de rendez-vous.</p>
+              <div class="price">70 €</div>
+              <div class="price-label">par séance · durée environ 1h</div>
+              <div class="booking-actions">
+                <a
+                  href="https://www.resalib.fr/agenda/100744?src=profile"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-white btn-lg"
+                  style="width:100%; justify-content:center"
+                >
+                  📅 Prendre rendez-vous en ligne
+                </a>
+                <a
+                  href="tel:+33670070722"
+                  class="btn btn-outline-white"
+                  style="width:100%; justify-content:center"
+                >
+                  📞 Appeler le 06 70 07 07 22
+                </a>
+                <a
+                  href="https://wa.me/33670070722"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-outline-white"
+                  style="width:100%; justify-content:center"
+                >
+                  💬 WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact form -->
+          <div style="margin-top:32px">
+            <h3 style="font-size:1.5rem; margin-bottom:8px">Envoyer un message</h3>
+            <p style="font-size:0.93rem; margin-bottom:4px">
+              Une question ? Une demande d'information ? Écrivez-moi via ce formulaire.
+            </p>
+            <form class="contact-form" action="mailto:sandrine.nugier@orange.fr" method="post" enctype="text/plain">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="prenom">Prénom *</label>
+                  <input type="text" id="prenom" name="prenom" class="form-input" placeholder="Votre prénom" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="nom">Nom *</label>
+                  <input type="text" id="nom" name="nom" class="form-input" placeholder="Votre nom" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">Email *</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="votre@email.com" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="telephone">Téléphone</label>
+                <input type="tel" id="telephone" name="telephone" class="form-input" placeholder="06 XX XX XX XX">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="sujet">Motif de contact</label>
+                <select id="sujet" name="sujet" class="form-select">
+                  <option value="">Sélectionnez un motif…</option>
+                  <option>Première séance / Renseignements</option>
+                  <option>Gestion du stress &amp; anxiété</option>
+                  <option>Troubles du sommeil</option>
+                  <option>Burn-out</option>
+                  <option>Arrêt du tabac</option>
+                  <option>Acouphènes</option>
+                  <option>Enfant / Adolescent</option>
+                  <option>Hypnose</option>
+                  <option>Soins énergétiques</option>
+                  <option>Autre</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="message">Message *</label>
+                <textarea id="message" name="message" class="form-textarea" placeholder="Décrivez brièvement votre demande…" required></textarea>
+              </div>
+              <p class="form-note">* Champs obligatoires. Vos informations sont confidentielles et ne seront jamais partagées.</p>
+              <button type="submit" class="btn btn-primary btn-lg" style="margin-top:12px; width:100%; justify-content:center">
+                Envoyer mon message
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== MAP ======== -->
+  <section style="background:var(--beige); padding:60px 0">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:32px">
+        <span class="eyebrow fade-in">Comment venir ?</span>
+        <h2 class="fade-in delay-1" style="margin-top:10px">Localisation du cabinet</h2>
+        <p class="fade-in delay-2" style="margin-top:12px; font-size:0.95rem">
+          Grande Place de la Brèche aux loups · 77330 Ozoir-la-Ferrière<br>
+          <span style="font-size:0.88rem; color:var(--text-light)">Parking disponible à côté de la clinique vétérinaire</span>
+        </p>
+      </div>
+      <div class="map-embed fade-in">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2628.5!2d2.6834!3d48.7715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee5a00a32f59c1%3A0x1a4e8b5e6f6d3c3e!2sPlace%20de%20la%20Br%C3%A8che%20aux%20Loups%2C%2077330%20Ozoir-la-Ferri%C3%A8re!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localisation du cabinet de Sandrine Nugier à Ozoir-la-Ferrière"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FAQ CONTACT ======== -->
+  <section class="section section-white">
+    <div class="container" style="max-width:760px">
+      <div style="text-align:center; margin-bottom:16px">
+        <span class="eyebrow fade-in">Avant votre premier rendez-vous</span>
+        <h2 class="fade-in delay-1" style="margin-top:12px">Questions pratiques</h2>
+      </div>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Comment se passe la première séance ?
+            <span class="faq-chevron">▾</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              La première séance est avant tout un moment d'échange. Nous prenons le temps
+              de faire connaissance, de définir vos attentes et vos objectifs. Je vous explique
+              ensuite le déroulement des séances et nous réalisons généralement un premier
+              exercice de relaxation pour que vous puissiez expérimenter la sophrologie.
+              Comptez environ 1h à 1h15 pour cette première rencontre.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Puis-je annuler ou reporter un rendez-vous ?
+            <span class="faq-chevron">▾</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Oui, bien sûr. Je vous demande simplement de me prévenir le plus tôt possible
+              (idéalement 24h à l'avance) pour que je puisse proposer le créneau à quelqu'un
+              d'autre. Vous pouvez me contacter par téléphone, WhatsApp ou via Resalib.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Que faut-il apporter ou préparer pour la séance ?
+            <span class="faq-chevron">▾</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Rien de spécial ! Venez simplement tel(le) que vous êtes.
+              Je vous recommande de porter des vêtements confortables, d'éviter un repas
+              trop copieux juste avant la séance, et si possible de noter les points
+              que vous souhaitez aborder pour ne rien oublier.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Les séances en ligne sont-elles aussi efficaces ?
+            <span class="faq-chevron">▾</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Oui, tout à fait. Les séances en ligne (par visioconférence) donnent des
+              résultats très comparables aux séances en présentiel pour la grande majorité
+              des problématiques. Vous avez besoin d'un endroit calme, d'une connexion
+              stable et d'un casque ou d'enceintes. Je vous envoie le lien de connexion
+              avant la séance.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Ma mutuelle rembourse-t-elle les séances ?
+            <span class="faq-chevron">▾</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              33 mutuelles remboursent tout ou partie des séances de sophrologie.
+              Je vous fournis une facture à chaque séance. Renseignez-vous directement
+              auprès de votre complémentaire santé pour connaître les modalités de
+              remboursement (plafond annuel, délai de carence…).
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="nav-logo-name">Sandrine Nugier</span>
+            <span class="nav-logo-title">Sophrologue · Hypnothérapeute · Énergéticienne</span>
+          </a>
+          <p class="footer-desc">Cabinet situé Place de la Brèche aux loups, Ozoir-la-Ferrière (77). Séances en cabinet, en ligne et à domicile.</p>
+          <div class="footer-social" style="margin-top:20px">
+            <a href="https://www.facebook.com/sandrine.nugier.sophrologie/" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+            <a href="https://www.resalib.fr/praticien/100744-sandrine-nugier-sophrologue-ozoir-la-ferriere" target="_blank" rel="noopener" aria-label="Resalib">R</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="sophrologie.html">La Sophrologie</a></li>
+            <li><a href="accompagnements.html">Accompagnements</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="temoignages.html">Témoignages</a></li>
+            <li><a href="contact.html">Contact &amp; RDV</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Accompagnements</h4>
+          <ul>
+            <li><a href="accompagnements.html#sophrologie">Sophrologie</a></li>
+            <li><a href="accompagnements.html#hypnose">Hypnose humaniste</a></li>
+            <li><a href="accompagnements.html#energetique">Soins énergétiques</a></li>
+            <li><a href="accompagnements.html#enfants">La Bulle des Émotions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">📍</span>
+            <span>Place de la Brèche aux loups<br>77330 Ozoir-la-Ferrière</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">📞</span>
+            <a href="tel:+33670070722">06 70 07 07 22</a>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">✉️</span>
+            <a href="mailto:sandrine.nugier@orange.fr">sandrine.nugier@orange.fr</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Sandrine Nugier — Tous droits réservés · SIREN : 533 016 960 00023</p>
+        <p style="color:rgba(255,255,255,0.3); font-size:0.76rem">Ces techniques ne remplacent en aucun cas un avis médical.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
